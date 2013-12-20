@@ -1,0 +1,27 @@
+# 
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "error:electronic_mail_wizard.account_dunning:"
+msgid "You can select a template in this wizard."
+msgstr "Seleccione una plantilla para esta acción."
+
+msgctxt "model:ir.action,name:wizard_email_account_dunning"
+msgid "Email Dunning"
+msgstr "Correo reclamación"
+
+msgctxt "wizard_button:electronic_mail_wizard.account_dunning,start,end:"
+msgid "Cancel"
+msgstr "Cancelar"
+
+msgctxt "wizard_button:electronic_mail_wizard.account_dunning,start,send:"
+msgid "Send"
+msgstr "Enviar"
+
+msgctxt "view:account.dunning:"
+msgid "Done"
+msgstr "Realizar"
+
+msgctxt "view:account.dunning:"
+msgid "Send Email"
+msgstr "Enviar correo"

@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!-- This file is part account_dunning_mail module for Tryton.
+The COPYRIGHT file at the top level of this repository contains the full copyright notices and license terms. -->
+<tryton>
+    <data>
+        <record model="ir.ui.view" id="dunning_view_list">
+            <field name="model">account.dunning</field>
+            <field name="inherit" ref="account_dunning.dunning_view_list"/>
+            <field name="name">dunning_list</field>
+        </record>
+
+         <record model="ir.action.wizard" id="wizard_email_account_dunning">
+            <field name="name">Email Dunning</field>
+            <field name="wiz_name">electronic_mail_wizard.account_dunning</field>
+            <field name="model">account.dunning</field>
+        </record>
+    </data>
+</tryton>
