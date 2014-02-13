@@ -39,11 +39,3 @@ class Dunning:
 class AccountDunningGenerateTemplateEmail(GenerateTemplateEmail):
     "Account Dunning Wizard to Generate Email from template"
     __name__ = "electronic_mail_wizard.account_dunning"
-
-    def default_start(self, fields):
-        default = self.render_fields(self.__name__)
-        return default
-
-    def transition_send(self):
-        self.render_and_send()
-        return 'end'
